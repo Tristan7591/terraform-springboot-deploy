@@ -1,0 +1,31 @@
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Terraform lock file
+*.lock.hcl
+
+# Terraform variables files (potentially containing secrets)
+*.tfvars
+*.tfvars.json
+
+# Sensitive shell scripts or configurations
+deploy.sh
+*.sh
+
+# Generated directories
+.terraform/
+
+# Backup files
+*.backup
+*.bak
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Packer build files
+packer/
+
+# Notes or local documents
+note.txt
